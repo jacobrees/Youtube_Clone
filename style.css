@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body{
+    background-color: #f2f2f2;
+}
+
 #nav-bar{
     padding-bottom: 5px;
     display: flex;
@@ -12,9 +16,6 @@
     top: 0;
     width: 100%;
     background-color: white;
-}
-body{
-    background-color: #f2f2f2;
 }
 
 .navi img{
@@ -93,6 +94,22 @@ body{
     padding-left: 20px;
 }
 
+#comments {
+    margin-top: 20px;
+}
+
+#comments img{
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.comments-area img {
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+
 .suggested{
     width: 30%;
     background-color: tomato;
@@ -106,6 +123,7 @@ body{
 #container {
     width: 85%;
     margin: 0 auto;
+    
 }
 
 .video-section h1 {
@@ -144,6 +162,16 @@ body{
     border-bottom: solid lightgrey 1px;
 }
 
+.video-description img {
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.video-description p {
+    margin-left: 50px;
+}
+
 .video-description button{
     float: right;
     margin-top: 10px;
@@ -154,11 +182,18 @@ body{
     text-transform: uppercase;
 }
 
-.video-description{
+.video-description {
     border-bottom: solid lightgrey 1px;
     padding-bottom: 20px;
+    margin-top: 10px;
 }
 
 .video-description h4{
     padding-bottom: 15px;
+}
+
+.suggested-video img {
+    float: left;
+    width: 180px;
+    margin-right: 10px;
 }
