@@ -104,7 +104,7 @@ body{
 }
 
 #container {
-    width: 1500px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -119,12 +119,46 @@ body{
 .right-info {
     display: flex;
     justify-content: flex-end;
+    align-content: center;
 }
 
-.right-info p {
-    margin: 20px;
+
+
+.right-info img {
+    width: 25px;
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .right-info img {
-    width: 50px;
+    width: 25px;
+    height: 25px;
+    padding-right: 8px;
+    padding-left: 8px;
+   
+}
+
+.vid-info{
+    padding-bottom: 15px;
+    border-bottom: solid lightgrey 1px;
+}
+
+.video-description button{
+    float: right;
+    margin-top: 10px;
+    background-color: #ff0100;
+    color: white;
+    border-radius: 3px;
+    border: solid #ff0100 10px;
+    text-transform: uppercase;
+}
+
+.video-description{
+    border-bottom: solid lightgrey 1px;
+    padding-bottom: 20px;
+}
+
+.video-description h4{
+    padding-bottom: 15px;
 }
