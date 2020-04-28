@@ -2,10 +2,45 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    top: 0;
+    width: 100%;
 }
 
 .navi img{
-   width: 80px;
-
+   width: 27px;
 }
 
+#main-logo {
+    width: 120px;
+}
+
+.navi-search {
+    height: 23px;
+    width: 750px;
+}
+
+.submit {
+    padding: 7px;
+    width: 100px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    display: flex;
+    float: right;
+    line-height: 100px;
+    margin: 20px;
+}
+
+#sign-in {
+    line-height: 60px;
+}
+
+.nav-right .navi {
+    padding: 10px;
+}
