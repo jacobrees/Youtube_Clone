@@ -202,3 +202,12 @@ body{
     width: 180px;
     margin-right: 10px;
 }
+
+#full-footer {
+    background-color: aqua;
+    height: 50px;
+}
+
+#top-footer img {
+    width: 100px;
+}
