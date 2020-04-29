@@ -173,6 +173,15 @@ body{
     margin-top: 15px;
 }
 
+.comments-area input{
+    width: 85%; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid gray;
+    background-color: #F2F2F2;
+}
+
 .comments-area img {
     float: left;
     width: 40px;
@@ -219,24 +228,32 @@ body{
 .main-footer select{
     padding: 5px;
     margin: 5px;
+    height: 30px;
 }
 
 .main-footer button{
     padding: 5px;
     margin: 5px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 3px;
 }
 
-.main-footer button a img{
-    height: 10px;
-    
-    
+.main-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.image-button {
+    max-width: 20px;
+}
+
+.image-button-a {
+    max-width: 15px;
 }
 
 #top-footer img {
     width: 100px;
 }
-
-
 
 #bottom-footer{
     width: 90%;
@@ -260,17 +277,4 @@ body{
     margin-right: 15px;
     text-decoration: none;
     color: black;
-
 }
-
-.main-footer a{
-    text-decoration: none;
-    color: black;
-}
-
-
-
-
-
-
-
