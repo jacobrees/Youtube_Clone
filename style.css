@@ -204,10 +204,73 @@ body{
 }
 
 #full-footer {
-    background-color: aqua;
-    height: 50px;
+    background-color: white;
+    
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    border-bottom: lightgray 1px solid;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.main-footer select{
+    padding: 5px;
+    margin: 5px;
+}
+
+.main-footer button{
+    padding: 5px;
+    margin: 5px;
+}
+
+.main-footer button a img{
+    height: 10px;
+    
+    
 }
 
 #top-footer img {
     width: 100px;
 }
+
+
+
+#bottom-footer{
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom:30px;
+    padding-top: 20px;
+}
+
+.top-links a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.bottom-links{
+    margin-top: 15px;
+}
+
+.bottom-links a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
