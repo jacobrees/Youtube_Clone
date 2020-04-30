@@ -10,7 +10,7 @@ body{
     background-color: #f2f2f2;
 }
 
-#nav-bar{
+.nav-bar{
     padding-bottom: 5px;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@ body{
    padding-top: 14px;
 }
 
-#main-logo {
+.main-logo {
     width: 120px;
 }
 
@@ -62,11 +62,11 @@ body{
     padding: 10px;
 }
 
-#sign-in{
+.sign-in{
     padding-top: 18px;
 }
 
-#sign-in a {
+.sign-in a {
     text-transform: uppercase;
     border: 2px solid #59b6d4;
     padding: 8px 5px;
@@ -74,13 +74,13 @@ body{
     text-decoration: none;
     border-radius: 3px;
 }
-#sign-in a:visited{
+.sign-in a:visited{
     color: #59b6d4;
     text-decoration: none;
   
 }
 
-#container {
+.container {
     width: 85%;
     margin: 0 auto; 
 }
@@ -159,11 +159,11 @@ body{
     margin-left: 50px;
 }
 
-#comments {
+.comments {
     margin-top: 20px;
 }
 
-#comments img{
+.comments img{
     width: 20px;
     margin-left: 30px;
     margin-right: 5px;
@@ -212,7 +212,7 @@ body{
     margin-right: 10px;
 }
 
-#full-footer {
+.full-footer {
     background-color: white;
     
 }
@@ -251,11 +251,11 @@ body{
     max-width: 15px;
 }
 
-#top-footer img {
+.top-footer img {
     width: 100px;
 }
 
-#bottom-footer{
+.bottom-footer{
     width: 90%;
     margin: 0px auto;
     padding-bottom:30px;
