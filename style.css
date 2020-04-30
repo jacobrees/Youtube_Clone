@@ -32,7 +32,7 @@ body{
 }
 
 .main-logo {
-    width: 120px;
+    width: 120px !important; 
 }
 
 .navi-search {
