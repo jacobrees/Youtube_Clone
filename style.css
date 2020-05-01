@@ -10,7 +10,7 @@ body{
     background-color: #f2f2f2;
 }
 
-#nav-bar{
+.nav-bar{
     padding-bottom: 5px;
     display: flex;
     flex-direction: row;
@@ -31,8 +31,8 @@ body{
    padding-top: 14px;
 }
 
-#main-logo {
-    width: 120px;
+.main-logo {
+    width: 120px !important; 
 }
 
 .navi-search {
@@ -62,11 +62,11 @@ body{
     padding: 10px;
 }
 
-#sign-in{
+.sign-in{
     padding-top: 18px;
 }
 
-#sign-in a {
+.sign-in a {
     text-transform: uppercase;
     border: 2px solid #59b6d4;
     padding: 8px 5px;
@@ -74,13 +74,13 @@ body{
     text-decoration: none;
     border-radius: 3px;
 }
-#sign-in a:visited{
+.sign-in a:visited{
     color: #59b6d4;
     text-decoration: none;
   
 }
 
-#container {
+.container {
     width: 85%;
     margin: 0 auto; 
 }
@@ -159,11 +159,11 @@ body{
     margin-left: 50px;
 }
 
-#comments {
+.comments {
     margin-top: 20px;
 }
 
-#comments img{
+.comments img{
     width: 20px;
     margin-left: 30px;
     margin-right: 5px;
@@ -171,6 +171,15 @@ body{
 
 .comments-area{
     margin-top: 15px;
+}
+
+.comments-area input{
+    width: 85%; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid gray;
+    background-color: #F2F2F2;
 }
 
 .comments-area img {
@@ -203,11 +212,69 @@ body{
     margin-right: 10px;
 }
 
-#full-footer {
-    background-color: aqua;
-    height: 50px;
+.full-footer {
+    background-color: white;
+    
 }
 
-#top-footer img {
+.main-footer {
+    display: flex;
+    align-items: center;
+    border-bottom: lightgray 1px solid;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.main-footer select{
+    padding: 5px;
+    margin: 5px;
+    height: 30px;
+}
+
+.main-footer button{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 3px;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.image-button {
+    max-width: 20px;
+}
+
+.image-button-a {
+    max-width: 15px;
+}
+
+.top-footer img {
     width: 100px;
+}
+
+.bottom-footer{
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom:30px;
+    padding-top: 20px;
+}
+
+.top-links a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.bottom-links{
+    margin-top: 15px;
+}
+
+.bottom-links a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
 }

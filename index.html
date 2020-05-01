@@ -3,12 +3,13 @@
 <head>
     <title>Youtube</title>
     <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <body>
-    <nav id="nav-bar">
+    <nav class="nav-bar">
         <div class="nav-left">
             <div class="navi">
-                <img id="main-logo" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c548.png" alt="Yotube Logo">
+                <img class="main-logo" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c548.png" alt="Yotube Logo">
             </div>
         </div>
 
@@ -28,17 +29,17 @@
                 <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png" alt="Apps Logo">
             </div>
             
-            <div id="sign-in">
+            <div class="sign-in">
                 <h2><a href="">Sign In</a></h2>
             </div>
         </div>
     </nav>
 
-    <div id="container">
+    <div class="container">
         <div class="Main">
             <section class="video-section">
                 <div class="video">
-                    <iframe src="https://www.youtube.com/embed/R1Sy9RatBs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/R1Sy9RatBs0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
                 <div class="vid-info">
@@ -68,10 +69,15 @@
                     <p>to view this video is life changing, to view this video is life changing</p>
                 </div>
                 
-                <div id="comments">
+                <div class="comments">
                     <span><strong>25 Comments</strong></span>
                     <img src="https://cdn.onlinewebfonts.com/svg/img_353915.png" alt="sort image icon">
                     <span>SORT BY</span>
+                </div>
+
+                <div class="comments-area">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/account-profile-avatar-man-circle-round-user-30452.png" alt="profile decription icon">
+                    <input type="text" placeholder="Add a puclic comment...">
                 </div>
 
                 <div class="comments-area">
@@ -243,25 +249,26 @@
     </div> 
 
     <footer>
-        <section id="full-footer">
-            <section id="top-footer">
-                <div>
+        <div class="full-footer">
+            <div class="top-footer">
+                <div class="main-footer">
                     <img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c548.png" alt="main logo">
-                    <select name="" id="">
-                        <option value=""><img src="" alt=""> Language: English</option>
+                    <select>
+                        <option value="">Language: English</option>
                     </select>
-                    <select name="" id="">
+                    <select>
                         <option value="">Location: Netherlands</option>
                     </select>
-                    <select name="" id="">
+                    <select>
                         <option value="">Restricted Mode: Off</option>
                     </select>
-                    <a href=""><img src="" alt=""> History</a>
-                    <a href=""><img src="" alt=""> Help</a>
+                    <button><img class="image-button-a" src="https://static.thenounproject.com/png/62992-200.png" alt="History icon"> History</button>
+                    
+                    <button><img class="image-button" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Question_Mark.svg/1200px-Question_Mark.svg.png" alt="help icon"> Help</button>
                 </div>
-            </section>
-            <section id="bottom-footer">
-                <div>
+            </div>
+            <div class="bottom-footer">
+                <div class="top-links">
                     <a href="">About</a>
                     <a href="">Press</a>
                     <a href="">Copyright</a>
@@ -269,14 +276,14 @@
                     <a href="">Advertise</a>
                     <a href="">Developers</a>
                 </div>
-                <div>
+                <div class="bottom-links">
                     <a href="">Terms</a>
                     <a href="">Privacy</a>
                     <a href="">Policy & Safety</a>
                     <a href="">Test new Features</a>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
     </footer>  
 </body>
 </html>
