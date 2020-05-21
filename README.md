@@ -2,7 +2,7 @@
 
 A clone of the YouTube page with navigation, a display of the main video, comments and a side area with suggestions of other videos.
 
-![screenshot](./screenshot.png)
+![screenshot](./images/youtube-clone-screenshot.png)
 
 
 # Built with #
@@ -12,7 +12,7 @@ A clone of the YouTube page with navigation, a display of the main video, commen
 
 ## Live Demo:
 
-[Live Demo Link] https://rawcdn.githack.com/jacobrees/Youtube_Clone/654319a0a6bdd8a32a3e1a76b8067e2d13b36eb3/index.html
+[Live Demo Link] (https://rawcdn.githack.com/jacobrees/Youtube_Clone/654319a0a6bdd8a32a3e1a76b8067e2d13b36eb3/index.html)
 
 
 ## Getting Started
